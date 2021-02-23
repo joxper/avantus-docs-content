@@ -23,6 +23,7 @@ jobs:
           destination-repository-directory: 'content'
           user-email: jorge@avantpage.com
           commit-message: Updated content
+          empty-repository: 0
       - name: Test get variable exported by push-to-another-repository
         run: echo $DESTINATION_CLONED_DIRECTORY
 
