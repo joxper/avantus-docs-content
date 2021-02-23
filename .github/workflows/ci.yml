@@ -17,13 +17,12 @@ jobs:
         env:
           API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
         with:
-          source-directory: 'content'
+          source-directory: 'content/en'
           destination-github-username: 'avantpage'
           destination-repository-name: 'avantus-docs'
           destination-repository-directory: 'content'
           user-email: jorge@avantpage.com
           commit-message: Updated content
           empty-repository: 0
-      - name: Test get variable exported by push-to-another-repository
-        run: echo $DESTINATION_CLONED_DIRECTORY
+
 
