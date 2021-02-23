@@ -1,0 +1,10 @@
+{
+  "title": "Avantus Documentation",
+  "url": "docs.avantdata.net",
+  "logo": {
+    "light": "/logo-light.svg",
+    "dark": "/logo-dark.svg"
+  },
+  "layout": "docs",
+  "github": "#"
+}
